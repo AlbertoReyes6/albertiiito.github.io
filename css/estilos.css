@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+
+.a{
+    text-decoration: none;
+    color: white;
+    width: 20px;
+    height: 20px;
+}
+
+.menuRedes{
+    list-style: none;
+    text-align: center;
+    margin: auto;
+    padding: 0;
+    
+}
+nav>ul>a>li{
+    display: table-cell;
+    margin: auto;
+    padding: 0;
+}
+
+/*///////////iconos/////////*/
+
+.icon1{
+    transition: 500ms;
+    background: #15a6db;
+    vertical-align: middle;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 45px;
+}
+
+.icon2{
+    transition: 500ms;
+    background: #d60e6b;
+    vertical-align: middle;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 45px;
+}
+
+/*///////////HOVER/////////*/
+
+.icon1:hover{
+    transition: 500ms;
+    background: #15a6db;
+    box-shadow: 0px 10px #0d6889;
+    vertical-align: middle;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 45px;
+}
+
+.icon2:hover{
+    transition: 500ms;
+    background: #d60e6b;
+    box-shadow: 0px 10px #96094a;
+    vertical-align: middle;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 45px;
+}
+
+/*///////////ACTIVE/////////*/
+
+.icon1:active{
+    transition: 500ms;
+    background: #0d6889;
+    vertical-align: middle;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 45px;
+}
+
+.icon2:active{
+    transition: 500ms;
+    background: #96094a;
+    vertical-align: middle;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 45px;
+}
