@@ -14,6 +14,11 @@
     padding: 0;
     
 }
+
+body{
+     font-family: rubik;
+    
+}
 header>nav>ul>a>li{
     display: table-cell;
     margin: auto;
@@ -96,3 +101,21 @@ header>nav>ul>a>li{
     text-align: center;
     line-height: 45px;
 }
+
+
+/*//////////////////teams--div//////////////////*/
+.teamsdiv{
+    
+    display: none;
+}
+.ul-teams{
+    list-style: none;
+}
+
+.a-teams{
+    text-decoration: none;
+    color: black;
+}
+
+
+
