@@ -1,30 +1,27 @@
-.user-img{
+/*/////////////////////////////////////*/
+#container {
     transition: 500ms;
-    width: 200px;
-    height: 350px;
-    position: relative; 
-}
-
-.user-img:hover{
-    transition: 500ms;
-    width: 200px;
-    height: 350px;
-    position: relative; 
-    box-shadow: 0px 20px yellow;
-}
-
-.name1{
-    position: absolute; 
-    top: 200px;
-    color: white;
-    left:680px;
-    text-shadow:3px 3px black;
-}
-
-
-.player-li{
-    list-style: none;
+    height: 400px;
+    width: 400px;
+    position: relative;
+    left: 0;
+    padding: 0px;
     display: table-cell;
-    padding: 10px;
     text-align: center;
+    margin: auto;
+}
+
+#image {
+    transition: 500ms;
+    position: block;
+    width: 250px;
+    height: 400px;
+}
+
+#image:hover {
+    transition: 500ms;
+    position: block;
+    width: 250px;
+    height: 400px;
+    box-shadow: 0px 10px yellow;
 }
